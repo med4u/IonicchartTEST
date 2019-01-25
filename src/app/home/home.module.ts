@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { ChartsModule } from 'ng2-charts/ng2-charts';
 
 import { HomePage } from './home.page';
 
@@ -16,7 +17,7 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage
       }
-    ])
+    ]),ChartsModule
   ],
   declarations: [HomePage]
 })
